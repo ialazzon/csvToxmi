@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="patientsVisits" nsURI="http://www.example.org/patientsVisits"
+    nsPrefix="patientsVisits">
+  <eClassifiers xsi:type="ecore:EClass" name="PaitentDataSet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="visit" upperBound="-1"
+        eType="#//Visit" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patient" upperBound="-1"
+        eType="#//Patient" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="city" upperBound="-1" eType="#//City"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Visit">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="date" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="flu_shot" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="patient" lowerBound="1"
+        eType="#//Patient"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" lowerBound="1"
+        eType="#//City"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Patient">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hometown" lowerBound="1"
+        eType="#//City"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="contacted_flu" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="City">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="state" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+  </eClassifiers>
+</ecore:EPackage>

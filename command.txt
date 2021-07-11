@@ -1,0 +1,3 @@
+python .\transform_csv_into_xmi.py .\personsMovies.ecore MovieDataSet .\test0.model out0.model
+
+python .\transform_csv_into_xmi.py .\kDD.ecore KDDDataSet .\kdd0.model out_kdd.model

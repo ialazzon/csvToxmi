@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mappingCSVtoEMF:MappingCSVtoEMF xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mappingCSVtoEMF="http://www.example.org/mappingCSVtoEMF" xmi:id="_qYAOUNccEeuXUP9qZRUGHw">
+  <datafile xmi:id="_s3VXgNccEeuXUP9qZRUGHw" className="Person" fileName="persons.csv"/>
+  <datafile xmi:id="_vIL_0NccEeuXUP9qZRUGHw" className="Movie" fileName="movies.csv"/>
+  <datafile xmi:id="_xHwq4NccEeuXUP9qZRUGHw" className="Role" fileName="roles.csv"/>
+  <mapping xmi:id="_3sMoQNccEeuXUP9qZRUGHw" className="Person" fieldNum="1" featureName="id"/>
+  <mapping xmi:id="_7oeQkNccEeuXUP9qZRUGHw" className="Person" fieldNum="2" featureName="name"/>
+  <mapping xmi:id="_-_yxsNccEeuXUP9qZRUGHw" className="Movie" fieldNum="1" featureName="id"/>
+  <mapping xmi:id="_CRX3MNcdEeuXUP9qZRUGHw" className="Movie" fieldNum="2" featureName="title"/>
+  <mapping xmi:id="_FVSUINcdEeuXUP9qZRUGHw" className="Movie" fieldNum="3" featureName="country"/>
+  <mapping xmi:id="_Hwa50NcdEeuXUP9qZRUGHw" className="Movie" fieldNum="4" featureName="year"/>
+  <mapping xmi:id="_MIkl0NcdEeuXUP9qZRUGHw" className="Role" fieldNum="1" featureName="personId"/>
+  <mapping xmi:id="_gAl5INcdEeuXUP9qZRUGHw" className="Role" fieldNum="2" featureName="movieId"/>
+  <mapping xmi:id="_kDREYNcdEeuXUP9qZRUGHw" className="Role" fieldNum="3" featureName="role"/>
+</mappingCSVtoEMF:MappingCSVtoEMF>

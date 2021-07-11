@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="kDD" nsURI="http://www.example.org/kDD" nsPrefix="kDD">
+  <eClassifiers xsi:type="ecore:EClass" name="KDDDataSet">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="project" upperBound="-1"
+        eType="#//Project" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="donation" upperBound="-1"
+        eType="#//Donation" containment="true"/>
+	<eStructuralFeatures xsi:type="ecore:EReference" name="resource" upperBound="-1"
+	eType="#//Resource" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="outcome" upperBound="-1"
+        eType="#//Outcome" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="essay" upperBound="-1"
+        eType="#//Essay" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Project">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="teacher_acctid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="schoolid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_ncesid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_latitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_longitude" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_city" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_state" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_zip" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_metro" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_district" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_county" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_charter" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_magnet" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_year_round" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_nlns" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_kipp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="school_charter_ready_promise"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="teacher_prefix" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="teacher_teach_for_america"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="teacher_ny_teaching_fellow"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="primary_focus_subject"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="primary_focus_area" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="secondary_focus_subject"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="secondary_focus_area" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="resource_type" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="poverty_level" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="grade_level" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fulfillment_labor_materials"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total_price_excluding_optional_support"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;" />
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="total_price_including_optional_support"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="students_reached" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="eligible_double_your_impact_match"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="eligible_almost_home_match"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="date_posted" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Donation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donor_acctid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donor_city" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donor_state" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donor_zip" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="is_teacher_acct" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donation_timestamp" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donation_to_project" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donation_optional_support"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donation_total" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dollar_amount" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donation_included_optional_support"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="payment_method" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="payment_included_acct_credit"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="payment_included_campaign_gift_card"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="payment_included_web_purchased_gift_card"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="payment_was_promo_matched"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="via_giving_page" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="for_honoree" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donation_message" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="projectid" eType="#//Project"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Outcome">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="is_exciting" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="at_least_1_teacher_referred_donor"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fully_funded" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="at_least_1_green_donation"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="great_chat" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="three_or_more_non_teacher_referred_donors"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="one_non_teacher_referred_donor_giving_100_plus"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="donation_from_thoughtful_donor"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="great_messages_proportion"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="teacher_referred_count"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="non_teacher_referred_count"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="projectid" eType="#//Project"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Essay">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="projectid" eType="#//Project"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="teacher_acctid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="short_description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="need_statement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="essay" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="&quot;&quot;"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Resource">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vendorid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vendor_name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="project_resource_type"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="item_name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="item_number" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="item_unit_price" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="item_quantity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral="&quot;&quot;"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="projectid" eType="#//Project"/>
+  </eClassifiers>
+</ecore:EPackage>

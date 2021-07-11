@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mappingCSVtoEMF:MappingCSVtoEMF xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mappingCSVtoEMF="http://www.example.org/mappingCSVtoEMF" xmi:id="_60pKYNfhEeuXUP9qZRUGHw">
+  <datafile xmi:id="_9il-YNfhEeuXUP9qZRUGHw" className="Donation" fileName="donations.csv"/>
+  <datafile xmi:id="__E3CYNfhEeuXUP9qZRUGHw" className="Essay" fileName="essays.csv"/>
+  <datafile xmi:id="__XCXgNfhEeuXUP9qZRUGHw" className="Outcome" fileName="outcomes.csv"/>
+  <datafile xmi:id="__o15MNfhEeuXUP9qZRUGHw" className="Project" fileName="projects.csv"/>
+  <datafile xmi:id="__4nakNfhEeuXUP9qZRUGHw" className="Resource" fileName="resources.csv"/>
+  <mapping xmi:id="_ajqg4NfiEeuXUP9qZRUGHw" className="Project" fieldNum="1" featureName="id"/>
+  <mapping xmi:id="_bI1DcNfiEeuXUP9qZRUGHw" className="Project" fieldNum="2" featureName="teacher_acctid"/>
+  <mapping xmi:id="_begYgNfiEeuXUP9qZRUGHw" className="Project" fieldNum="3" featureName="schoolid"/>
+  <mapping xmi:id="_b4rzENfiEeuXUP9qZRUGHw" className="Project" fieldNum="4" featureName="school_ncesid"/>
+  <mapping xmi:id="_cKnQkNfiEeuXUP9qZRUGHw" className="Project" fieldNum="5" featureName="school_latitude"/>
+  <mapping xmi:id="_cf6yMNfiEeuXUP9qZRUGHw" className="Project" fieldNum="6" featureName="school_longitude"/>
+  <mapping xmi:id="_cxUEMNfiEeuXUP9qZRUGHw" className="Project" fieldNum="7" featureName="school_city"/>
+  <mapping xmi:id="_dIiRYNfiEeuXUP9qZRUGHw" className="Project" fieldNum="8" featureName="school_state"/>
+  <mapping xmi:id="_ddoXoNfiEeuXUP9qZRUGHw" className="Project" fieldNum="9" featureName="school_zip"/>
+  <mapping xmi:id="_dth00NfiEeuXUP9qZRUGHw" className="Project" fieldNum="10" featureName="school_metro"/>
+  <mapping xmi:id="_z1WAgNfiEeuXUP9qZRUGHw" className="Project" fieldNum="11" featureName="school_district"/>
+  <mapping xmi:id="_0E2cINfiEeuXUP9qZRUGHw" className="Project" fieldNum="12" featureName="school_county"/>
+  <mapping xmi:id="_0TVkENfiEeuXUP9qZRUGHw" className="Project" fieldNum="13" featureName="school_charter"/>
+  <mapping xmi:id="_02kM8NfiEeuXUP9qZRUGHw" className="Project" fieldNum="14" featureName="school_magnet"/>
+  <mapping xmi:id="_1Iu7ANfiEeuXUP9qZRUGHw" className="Project" fieldNum="15" featureName="school_year_round"/>
+  <mapping xmi:id="_1Z3HQNfiEeuXUP9qZRUGHw" className="Project" fieldNum="16" featureName="school_nlns"/>
+  <mapping xmi:id="_1sZBsNfiEeuXUP9qZRUGHw" className="Project" fieldNum="17" featureName="school_kipp"/>
+  <mapping xmi:id="_19GXMNfiEeuXUP9qZRUGHw" className="Project" fieldNum="18" featureName="school_charter_ready_promise"/>
+  <mapping xmi:id="_2OqBQNfiEeuXUP9qZRUGHw" className="Project" fieldNum="19" featureName="teacher_prefix"/>
+  <mapping xmi:id="_2puMoNfiEeuXUP9qZRUGHw" className="Project" fieldNum="20" featureName="teacher_teach_for_america"/>
+  <mapping xmi:id="_PTsMANfjEeuXUP9qZRUGHw" className="Project" fieldNum="21" featureName="teacher_ny_teaching_fellow"/>
+  <mapping xmi:id="_Pn79sNfjEeuXUP9qZRUGHw" className="Project" fieldNum="22" featureName="primary_focus_subject"/>
+  <mapping xmi:id="_P4e7INfjEeuXUP9qZRUGHw" className="Project" fieldNum="23" featureName="primary_focus_area"/>
+  <mapping xmi:id="_QXt00NfjEeuXUP9qZRUGHw" className="Project" fieldNum="24" featureName="secondary_focus_subject"/>
+  <mapping xmi:id="_Qo7goNfjEeuXUP9qZRUGHw" className="Project" fieldNum="25" featureName="secondary_focus_area"/>
+  <mapping xmi:id="_RLVqINfjEeuXUP9qZRUGHw" className="Project" fieldNum="26" featureName="resource_type"/>
+  <mapping xmi:id="_RL6qoNfjEeuXUP9qZRUGHw" className="Project" fieldNum="27" featureName="poverty_level"/>
+  <mapping xmi:id="_Rq4s4NfjEeuXUP9qZRUGHw" className="Project" fieldNum="28" featureName="grade_level"/>
+  <mapping xmi:id="_SCD2wNfjEeuXUP9qZRUGHw" className="Project" fieldNum="29" featureName="fulfillment_labor_materials"/>
+  <mapping xmi:id="_SkGM0NfjEeuXUP9qZRUGHw" className="Project" fieldNum="30" featureName="total_price_excluding_optional_support"/>
+  <mapping xmi:id="_S-oMsNfjEeuXUP9qZRUGHw" className="Project" fieldNum="31" featureName="total_price_including_optional_support"/>
+  <mapping xmi:id="_pW52QNfjEeuXUP9qZRUGHw" className="Project" fieldNum="32" featureName="students_reached"/>
+  <mapping xmi:id="_pyoI8NfjEeuXUP9qZRUGHw" className="Project" fieldNum="33" featureName="eligible_double_your_impact_match"/>
+  <mapping xmi:id="_qIpcQNfjEeuXUP9qZRUGHw" className="Project" fieldNum="34" featureName="eligible_almost_home_match"/>
+  <mapping xmi:id="_qhUa8NfjEeuXUP9qZRUGHw" className="Project" fieldNum="35" featureName="date_posted"/>
+  <mapping xmi:id="_A8XEoNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="1" featureName="id"/>
+  <mapping xmi:id="_BT4z0NfkEeuXUP9qZRUGHw" className="Donation" fieldNum="2" featureName="projectid"/>
+  <mapping xmi:id="_BtQWENfkEeuXUP9qZRUGHw" className="Donation" fieldNum="3" featureName="donor_acctid"/>
+  <mapping xmi:id="_CFlWgNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="4" featureName="donor_city"/>
+  <mapping xmi:id="_Caw8UNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="5" featureName="donor_state"/>
+  <mapping xmi:id="_Cz7DMNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="6" featureName="donor_zip"/>
+  <mapping xmi:id="_DMZ0oNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="7" featureName="is_teacher_acct"/>
+  <mapping xmi:id="_DkFU0NfkEeuXUP9qZRUGHw" className="Donation" fieldNum="8" featureName="donation_timestamp"/>
+  <mapping xmi:id="_D8nwoNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="9" featureName="donation_to_project"/>
+  <mapping xmi:id="_ETkRANfkEeuXUP9qZRUGHw" className="Donation" fieldNum="10" featureName="donation_optional_support"/>
+  <mapping xmi:id="_Z8GfsNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="11" featureName="donation_total"/>
+  <mapping xmi:id="_aS0WkNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="12" featureName="dollar_amount"/>
+  <mapping xmi:id="_ay4WsNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="13" featureName="donation_included_optional_support"/>
+  <mapping xmi:id="_bNWsMNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="14" featureName="payment_method"/>
+  <mapping xmi:id="_bpP-ANfkEeuXUP9qZRUGHw" className="Donation" fieldNum="15" featureName="payment_included_acct_credit"/>
+  <mapping xmi:id="_b-lU0NfkEeuXUP9qZRUGHw" className="Donation" fieldNum="16" featureName="payment_included_campaign_gift_card"/>
+  <mapping xmi:id="_cblZ4NfkEeuXUP9qZRUGHw" className="Donation" fieldNum="17" featureName="payment_included_web_purchased_gift_card"/>
+  <mapping xmi:id="_c11s8NfkEeuXUP9qZRUGHw" className="Donation" fieldNum="18" featureName="payment_was_promo_matched"/>
+  <mapping xmi:id="_dONwsNfkEeuXUP9qZRUGHw" className="Donation" fieldNum="20" featureName="for_honoree"/>
+  <mapping xmi:id="_dofR4NfkEeuXUP9qZRUGHw" className="Donation" fieldNum="21" featureName="donation_message"/>
+  <mapping xmi:id="__O_ucNfkEeuXUP9qZRUGHw" className="Outcome" fieldNum="1" featureName="projectid"/>
+  <mapping xmi:id="__tTbENfkEeuXUP9qZRUGHw" className="Outcome" fieldNum="2" featureName="is_exciting"/>
+  <mapping xmi:id="_AHWSwNflEeuXUP9qZRUGHw" className="Outcome" fieldNum="3" featureName="at_least_1_teacher_referred_donor"/>
+  <mapping xmi:id="_Aj8IINflEeuXUP9qZRUGHw" className="Outcome" fieldNum="4" featureName="fully_funded"/>
+  <mapping xmi:id="_BBF-MNflEeuXUP9qZRUGHw" className="Outcome" fieldNum="5" featureName="at_least_1_green_donation"/>
+  <mapping xmi:id="_BaYA4NflEeuXUP9qZRUGHw" className="Outcome" fieldNum="6" featureName="great_chat"/>
+  <mapping xmi:id="_B18ikNflEeuXUP9qZRUGHw" className="Outcome" fieldNum="7" featureName="three_or_more_non_teacher_referred_donors"/>
+  <mapping xmi:id="_CVBrQNflEeuXUP9qZRUGHw" className="Outcome" fieldNum="8" featureName="one_non_teacher_referred_donor_giving_100_plus"/>
+  <mapping xmi:id="_CyKTMNflEeuXUP9qZRUGHw" className="Outcome" fieldNum="9" featureName="donation_from_thoughtful_donor"/>
+  <mapping xmi:id="_DPOCoNflEeuXUP9qZRUGHw" className="Outcome" fieldNum="10" featureName="great_messages_proportion"/>
+  <mapping xmi:id="_DopPQNflEeuXUP9qZRUGHw" className="Outcome" fieldNum="11" featureName="teacher_referred_count"/>
+  <mapping xmi:id="_ECJ7cNflEeuXUP9qZRUGHw" className="Outcome" fieldNum="12" featureName="non_teacher_referred_count"/>
+  <mapping xmi:id="_hbUN0NflEeuXUP9qZRUGHw" className="Essay" fieldNum="1" featureName="projectid"/>
+  <mapping xmi:id="_h4qRINflEeuXUP9qZRUGHw" className="Essay" fieldNum="2" featureName="teacher_acctid"/>
+  <mapping xmi:id="_iTImoNflEeuXUP9qZRUGHw" className="Essay" fieldNum="3" featureName="title"/>
+  <mapping xmi:id="_i4iZwNflEeuXUP9qZRUGHw" className="Essay" fieldNum="4" featureName="short_description"/>
+  <mapping xmi:id="_jYS34NflEeuXUP9qZRUGHw" className="Essay" fieldNum="5" featureName="need_statement"/>
+  <mapping xmi:id="_j1PSkNflEeuXUP9qZRUGHw" className="Essay" fieldNum="6" featureName="essay"/>
+  <mapping xmi:id="_3GEDANflEeuXUP9qZRUGHw" className="Resource" fieldNum="1" featureName="id"/>
+  <mapping xmi:id="_3mWsoNflEeuXUP9qZRUGHw" className="Resource" fieldNum="2" featureName="projectid"/>
+  <mapping xmi:id="_4B-RoNflEeuXUP9qZRUGHw" className="Resource" fieldNum="3" featureName="vendorid"/>
+  <mapping xmi:id="_4pfkoNflEeuXUP9qZRUGHw" className="Resource" fieldNum="4" featureName="vendor_name"/>
+  <mapping xmi:id="_5It3QNflEeuXUP9qZRUGHw" className="Resource" fieldNum="5" featureName="project_resource_type"/>
+  <mapping xmi:id="_5wqoENflEeuXUP9qZRUGHw" className="Resource" fieldNum="6" featureName="item_name"/>
+  <mapping xmi:id="_6QuBINflEeuXUP9qZRUGHw" className="Resource" fieldNum="7" featureName="item_number"/>
+  <mapping xmi:id="_6wd4MNflEeuXUP9qZRUGHw" className="Resource" fieldNum="8" featureName="item_unit_price"/>
+  <mapping xmi:id="_7RBnkNflEeuXUP9qZRUGHw" className="Resource" fieldNum="9" featureName="item_quantity"/>
+  <mapping xmi:id="_fZd_8NfnEeuXUP9qZRUGHw" className="Donation" fieldNum="19" featureName="via_giving_page"/>
+</mappingCSVtoEMF:MappingCSVtoEMF>

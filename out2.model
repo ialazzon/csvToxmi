@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<patientsVisits:PaitentDataSet xmlns:xmi="http://www.omg.org/XMI" xmlns:patientsVisits="http://www.example.org/patientsVisits" xmi:version="2.0">
+  <city id="1" state="AA"/>
+  <city id="2" state="BB"/>
+  <visit id="1" flu_shot="False" location="//@city.0" date="2019-01-22" patient="//@patient.1"/>
+  <visit id="2" flu_shot="True" location="//@city.0" date="2019-02-16" patient="//@patient.0"/>
+  <visit id="3" flu_shot="False" location="//@city.0" date="2019-03-05" patient="//@patient.1"/>
+  <visit id="4" flu_shot="False" location="//@city.1" date="2019-03-08" patient="//@patient.1"/>
+  <patient id="1" hometown="//@city.1" contacted_flu="False"/>
+  <patient id="2" hometown="//@city.0" contacted_flu="True"/>
+  <patient id="3" hometown="//@city.0" contacted_flu="False"/>
+</patientsVisits:PaitentDataSet>

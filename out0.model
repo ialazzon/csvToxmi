@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<personsMovies:MovieDataSet xmlns:xmi="http://www.omg.org/XMI" xmlns:personsMovies="http://www.example.org/personsMovies" xmi:version="2.0">
+  <person name="Charlie Sheen" id="1"/>
+  <person name="Michael Douglas" id="2"/>
+  <person name="Martin Sheen" id="3"/>
+  <person name="Morgan Freeman" id="4"/>
+  <movie country="USA" title="Wall Street" year="1987" id="1"/>
+  <movie country="USA" title="The American President" year="1995" id="2"/>
+  <movie country="USA" title="The Shawshank Redemption" year="1994" id="3"/>
+  <role personId="//@person.0" movieId="//@movie.0" role="Bud Fox"/>
+  <role personId="//@person.3" movieId="//@movie.0" role="Carl Fox"/>
+  <role personId="//@person.2" movieId="//@movie.0" role="Gordon Gekko"/>
+  <role personId="//@person.3" movieId="//@movie.1" role="A.J. MacInerney"/>
+  <role personId="//@person.2" movieId="//@movie.1" role="President Andrew Shepherd"/>
+  <role personId="//@person.3" movieId="//@movie.2" role="Ellis Boyd 'Red' Redding"/>
+</personsMovies:MovieDataSet>

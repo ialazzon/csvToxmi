@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mappingCSVtoEMF:MappingCSVtoEMF xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mappingCSVtoEMF="http://www.example.org/mappingCSVtoEMF" xmi:id="_GkfOMNdJEeuXUP9qZRUGHw">
+  <datafile xmi:id="_HmcacNdJEeuXUP9qZRUGHw" className="City" fileName="cities.csv"/>
+  <datafile xmi:id="_Kq64ENdJEeuXUP9qZRUGHw" className="Patient" fileName="patients.csv"/>
+  <datafile xmi:id="_NB7LsNdJEeuXUP9qZRUGHw" className="Visit" fileName="visits.csv"/>
+  <mapping xmi:id="_RFERANdJEeuXUP9qZRUGHw" className="City" fieldNum="1" featureName="id"/>
+  <mapping xmi:id="_U-YE4NdJEeuXUP9qZRUGHw" className="City" fieldNum="2" featureName="state"/>
+  <mapping xmi:id="_nJS9MNdJEeuXUP9qZRUGHw" className="Patient" fieldNum="1" featureName="id"/>
+  <mapping xmi:id="_vPyjMNdJEeuXUP9qZRUGHw" className="Patient" fieldNum="2" featureName="hometown"/>
+  <mapping xmi:id="_zidSQNdJEeuXUP9qZRUGHw" className="Patient" fieldNum="3" featureName="contacted_flu"/>
+  <mapping xmi:id="_4tTmgNdJEeuXUP9qZRUGHw" className="Visit" fieldNum="1" featureName="id"/>
+  <mapping xmi:id="_7IU3cNdJEeuXUP9qZRUGHw" className="Visit" fieldNum="2" featureName="date"/>
+  <mapping xmi:id="_A1NhwNdKEeuXUP9qZRUGHw" className="Visit" fieldNum="3" featureName="patient"/>
+  <mapping xmi:id="_HaZGANdKEeuXUP9qZRUGHw" className="Visit" fieldNum="4" featureName="flu_shot"/>
+  <mapping xmi:id="_MIQjUNdKEeuXUP9qZRUGHw" className="Visit" fieldNum="5" featureName="location"/>
+</mappingCSVtoEMF:MappingCSVtoEMF>
